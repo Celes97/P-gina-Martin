@@ -134,13 +134,14 @@ h3 {
 }
 
 #contact-form {
-    flex: 1; 
-    font-family: "Roboto Flex", sans-serif !important; 
-    max-width: 500px; 
-    padding: 20px; 
-    border: 1px solid #b9d6bd; 
-    border-radius: 5px; 
-    background-color: #d9edd0; 
+    flex: 1;
+    font-family: "Roboto Flex", sans-serif !important;
+    max-width: 500px;
+    padding: 20px;
+    border: 1px solid #b9d6bd;
+    border-radius: 5px;
+    background-color: #d9edd0;
+    margin: 0 auto;
 }
 
 label {
@@ -246,3 +247,82 @@ h2 {
     }
 }
 
+@media screen and (max-width: 768px) {
+header {
+    justify-content: space-between;
+    text-align: center;
+    padding: 1px;
+}
+
+header .logo {
+    width: 180px;
+}
+
+header .menu ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+    padding: 0 10px;
+    margin: 0;
+}
+
+header .menu ul li {
+    flex: 1;
+    text-align: center;  
+    margin: 0; 
+}
+
+header .menu ul li a {
+    font-size: 14px; 
+    display: block;
+    padding: 10px 0;
+}
+
+.video-container .map .quienes-somos {
+    padding: 0 5px;
+    font-size: smaller
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
+}
+.container {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+    width: 90%; 
+    margin: 0 auto; 
+}
+
+.text-section {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.text-section h2 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.text-section p {
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+#contact-form {
+    width: 100%;
+    padding: 15px;
+}
+
+input[type="text"], textarea {
+    padding: 8px;
+    font-size: 14px; 
+    margin-bottom: 10px; 
+}
+
+button {
+    font-size: 14px;
+    padding: 8px 12px;
+}
+}
