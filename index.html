@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--estilo propio de CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Aero MVAR</title>
+
+    <!--estilo de boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+
+    <!--estilo de fuente-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@100;300&display=swap" rel="stylesheet">
+
+    
+    <!--estilo de íconos-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--AOS animaciones-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css">
+
+<!--palabras clave-->
+<meta name="description" content="grabaciones con dron">
+<meta name="keywords" content="drone, terreno, filmación, grabación, aereo, video con drone">
+
+</head>
+<body>
+    <header id="header">
+        <a href="/index.html" class="logo-link">
+            <img src="/images/logo.jpg" alt="Logo" class="logo">
+        </a>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="pages/contacto.html">Contacto</a></li>
+                <li><a href="pages/imagenes.html">Imágenes</a></li>
+                <li><a href="pages/videos.html">Videos</a></li>
+                <li><a href="#map">Ubicación</a></li>
+                <li><a href="#quienes-somos">Quienes Somos</a></li>
+            </ul>
+        </nav>
+    
+    </header>
+    
+    <div class="video-container">
+        <video controls autoplay>
+            <source src="videos/primera-prueba.mp4" type="video/mp4">
+            Tu navegador no soporta la etiqueta de video.
+        </video>
+    </div>
+
+    <h3 class="titulo">Encontranos</h3>
+        <iframe data-aos="fade-up" data-aos-duration="1500"
+        id="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105073.45340566235!2d-58.51569982530403!3d-34.61565476740269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1730563448449!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    ></iframe>
+
+    <h3 class="titulo">Quienes Somos</h3>
+    <p id="quienes-somos" data-aos="fade-up" data-aos-duration="1500">Somos una pareja apasionada por la aventura y la exploración. Nuestra historia comenzó cuando decidimos adquirir un dron, con la idea de capturar desde el aire la belleza de los lugares que visitamos.
+    A través del vuelo y la filmación, descubrimos una nueva perspectiva del mundo que nos rodea. Cada lugar tiene su propia magia, y a través de nuestras imágenes, buscamos compartir esa visión única con todos. Nos encanta la idea de mostrar no solo los destinos más conocidos, sino también esos rincones ocultos que solo pueden apreciarse desde las alturas.
+    Nuestro objetivo es inspirar a otros a explorar, descubrir y ver el mundo desde una nueva perspectiva. Con cada vuelo, nuestra pasión por la fotografía aérea crece, y estamos emocionados de llevarte a estos nuevos horizontes a través de nuestros videos.</p>
+
+    <!-- 3- tercera estructura = pie de página-->
+    <footer id="footer">
+        <section>
+            <ul> 
+            </ul>
+        </section>
+        <section>
+            <a>
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <div>
+                <i class="fa-brands fa-whatsapp"></i>
+            </div>
+            <div>
+                <i class="fa-regular fa-envelope"></i>
+            </div>
+        </section>
+    </footer>
+    
+    <!--boostrap java-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</body>
+</html>
